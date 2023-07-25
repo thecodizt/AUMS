@@ -5,6 +5,8 @@ function createWindow () {
     // Create the browser window.
     const win = new BrowserWindow( {
         // fullscreen: true,
+        height: 10000,
+        width: 10000,
         icon: path.join(__dirname, 'icon.png'),
         webPreferences: {
             nodeIntegration: true,
