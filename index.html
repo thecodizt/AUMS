@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Amrita University Management System</title>
+		<style>
+			body,
+			html {
+				height: 100%;
+				margin: 0;
+				padding: 0;
+			}
+			webview {
+				height: 100%;
+				width: 100%;
+				border: none;
+			}
+		</style>
+	</head>
+	<body>
+		<webview
+			src="http://aumscb.amrita.edu/cas/login?service=https%3A%2F%2Faumscb.amrita.edu%2Faums%2FJsp%2FCore_Common%2Findex.jsp"
+		></webview>
+		<script>
+			const { session } = require("electron");
+
+			// Use the session module to manage cookies
+			// ...
+		</script>
+	</body>
+</html>
